@@ -37,10 +37,10 @@ class Register extends React.Component {
             </Link>
           </p>
           <form>
-            <div class="form-group">
+            <div className="form-group">
               <input
                 type="text"
-                class="inputForm form-control form-control-lg"
+                className="inputForm form-control form-control-lg"
                 id="firstName"
                 value="Peter"
               />
@@ -48,15 +48,15 @@ class Register extends React.Component {
             <div class="form-group">
               <input
                 type="text"
-                class="inputForm form-control form-control-lg"
+                className="inputForm form-control form-control-lg"
                 id="lastName"
                 value="Jones"
               />
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <input
                 type="email"
-                class="inputForm form-control form-control-lg"
+                className="inputForm form-control form-control-lg"
                 id="email"
                 value="Peterjones@gmail.com"
               />
@@ -64,21 +64,24 @@ class Register extends React.Component {
             <div class="form-group">
               <input
                 type="tel"
-                class="inputForm form-control form-control-lg"
+                className="inputForm form-control form-control-lg"
                 id="telephone"
                 value="075989745812"
               />
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <input
                 type="text"
-                class="inputForm form-control form-control-lg"
+                className="inputForm form-control form-control-lg"
                 id="exampleInputPassword1"
                 aria-describedby="passwordHelp"
                 value="xxxxx"
               />
             </div>
-            <button type="submit" class="login-btn btn btn-success btn-block">
+            <button
+              type="submit"
+              className="login-btn btn btn-success btn-block"
+            >
               SIGUIENTE
             </button>
           </form>

@@ -38,20 +38,28 @@ class Login extends React.Component {
         <hr />
         <div className="grid-container">
           <div className="grid-item">
-            <img className="socialIcon" src={Facebook} />
+            <a href="https://www.facebook.com">
+              <img className="socialIcon" src={Facebook} />
+            </a>
           </div>
           <div className="grid-item">
-            <img className="socialIcon" src={Instagram} />
+            <a href="https://www.instagram.com">
+              <img className="socialIcon" src={Instagram} />
+            </a>
           </div>
           <div className="grid-item">
-            <img className="socialIcon" src={Linkedin} />
+            <a href="https://www.linkedin.com">
+              <img className="socialIcon" src={Linkedin} />
+            </a>
           </div>
           <div className="grid-item">
-            <img className="socialIcon" src={Twitter} />
+            <a href="https://www.twitter.com">
+              <img className="socialIcon" src={Twitter} />
+            </a>
           </div>
         </div>
         <p className="login-text">
-          No estás registrado?{" "}
+          No estás registrado?
           <Link className="login-text" to="/register">
             <strong>REGÍSTRATE</strong>
           </Link>
