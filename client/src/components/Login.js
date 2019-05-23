@@ -28,7 +28,9 @@ class Login extends React.Component {
               aria-describedby="passwordHelp"
               placeholder="Contraseña"
             />
-            <small id="passwordHelp">Has olvidado de tu contraseña?</small>
+            <Link to="/passwordreset">
+              <small id="passwordHelp">Has olvidado de tu contraseña?</small>
+            </Link>
           </div>
           <button type="submit" class="login-btn btn btn-success btn-block">
             INCIAR SESIÓN
