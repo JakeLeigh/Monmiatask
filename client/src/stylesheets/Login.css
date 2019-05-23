@@ -14,3 +14,30 @@ small {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.inputForm {
+  border-color: #5d2f75;
+  color: #5d2f75;
+}
+
+.login-text {
+  text-align: center;
+  padding-top: 10%;
+  color: #5d2f75;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.socialIcon {
+  height: 50px;
+}
+.progress-bar {
+  background-color: #5d2f75;
+  border-radius: 10px;
+}
