@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 
-class App extends React.Component {
+export default React.createClass({
   render() {
     return (
       <div>
@@ -9,6 +9,6 @@ class App extends React.Component {
       </div>
     );
   }
-}
+});
 
 export default App;

@@ -1,14 +1,17 @@
 import React from "react";
 import monmia from "../images/monmia(darkbg).png";
-import "./Nav.css";
+import "../stylesheets/Nav.css";
+import { Link } from "react-router";
 
 const Nav = () => {
   return (
     <nav className="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="">
+      <a className="navbar-brand" href="/">
         <img className="logo" src={monmia} />
       </a>
-      <i class="fas fa-bell fa-lg" />
+      <a href="/notifications">
+        <i class="fas fa-bell fa-lg" />
+      </a>
       <button
         className="navbar-toggler"
         type="button"
