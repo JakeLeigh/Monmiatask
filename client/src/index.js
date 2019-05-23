@@ -3,13 +3,15 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 import Login from "./components/Login";
 import Register from "./components/Register";
-import { Router, Route, hashHistory } from "react-router";
+import { HashRouter, Route, Link } from "react-router-dom";
 
 ReactDOM.render(
-  <Router history={hashHistory}>
-    <Route path="/" component={App} />
-    <Route path="/login" component={Login} />
-    <Route path="/register" component={Register} />
-  </Router>,
+  <HashRouter>
+    <div>
+      <Route path="/" component={App} />
+      <Route path="/login" component={Login} />
+      <Route path="/register" component={Register} />
+    </div>
+  </HashRouter>,
   document.querySelector("#root")
 );
