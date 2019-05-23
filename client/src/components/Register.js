@@ -32,7 +32,7 @@ class Register extends React.Component {
           </div>
           <p className="login-text">
             Estás ya registrado?{" "}
-            <Link className="login-text" to="/register">
+            <Link className="login-text" to="/login">
               <strong>Iniciar sesión</strong>
             </Link>
           </p>
