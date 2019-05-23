@@ -1,0 +1,25 @@
+{
+  "name": "monmiatask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeLeigh/Monmiatask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeLeigh/Monmiatask/issues"
+  },
+  "homepage": "https://github.com/JakeLeigh/Monmiatask#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "nodemon": "^1.19.0"
+  }
+}
