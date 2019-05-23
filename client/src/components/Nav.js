@@ -8,6 +8,7 @@ const Nav = () => {
       <a className="navbar-brand" href="">
         <img className="logo" src={monmia} />
       </a>
+      <i class="fas fa-bell fa-lg" />
       <button
         className="navbar-toggler"
         type="button"
@@ -19,6 +20,7 @@ const Nav = () => {
       >
         <span className="navbar-toggler-icon" />
       </button>
+
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item dropdown">

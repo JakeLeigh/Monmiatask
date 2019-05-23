@@ -19,3 +19,8 @@
 .navbar-custom .navbar-nav .nav-link:hover {
   color: purple;
 }
+
+.navbar-custom i {
+  color: #5d2f75;
+  padding-left: 200px;
+}
