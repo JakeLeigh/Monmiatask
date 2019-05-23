@@ -10,7 +10,7 @@ const Nav = () => {
         <img className="logo" src={monmia} />
       </Link>
       <a href="/notifications">
-        <i class="fas fa-bell fa-lg" />
+        <i className="fas fa-bell fa-lg" />
       </a>
       <button
         className="navbar-toggler"

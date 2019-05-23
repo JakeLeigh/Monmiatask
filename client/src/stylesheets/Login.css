@@ -1,0 +1,16 @@
+.container {
+  padding: 40px;
+}
+form {
+  color: #5d2f75;
+}
+small {
+  color: #5d2f75;
+  float: right;
+  padding-bottom: 40px;
+}
+
+.login-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
