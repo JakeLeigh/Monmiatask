@@ -1,0 +1,21 @@
+.logo {
+  height: 40px;
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: #5d2f75;
+  padding-left: 50px;
+}
+
+.navbar-custom .navbar-nav .dropdown .dropdown-menu {
+  border: none;
+  background-color: #f8f9fa;
+  color: grey;
+  padding-left: 25px;
+}
+
+.navbar-custom .navbar-toggler {
+  border: none;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: purple;
+}
