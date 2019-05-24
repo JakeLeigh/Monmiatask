@@ -1,0 +1,18 @@
+.saveSplash {
+  text-align: center;
+  padding-top: 30%;
+  padding-bottom: 10%;
+}
+
+.save-icon {
+  color: #5d2f75;
+  margin: 10%;
+}
+.save-title {
+  color: #5d2f75;
+  font-size: 30px;
+}
+.save-text {
+  color: #5d2f75;
+  text-align: center;
+}

@@ -6,6 +6,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import ForgotPassword from "./components/ForgotPassword";
 import Notifications from "./components/Notifications";
+import Details from "./components/Details";
 import { HashRouter, Route } from "react-router-dom";
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="/register" component={Register} />
       <Route path="/passwordreset" component={ForgotPassword} />
       <Route path="/notifications" component={Notifications} />
+      <Route path="/savedetails" component={Details} />
     </div>
   </HashRouter>,
   document.querySelector("#root")
