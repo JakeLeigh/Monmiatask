@@ -1,0 +1,26 @@
+.notification-title {
+  color: #5d2f75;
+  font-size: 18px;
+}
+
+.split-text {
+  color: #5d2f75;
+  font-size: 25px;
+  display: flex;
+  float: right;
+  padding-left: 10px;
+}
+.bell-icon {
+  color: lightgrey;
+  margin-left: 33%;
+}
+.welcome-msg {
+  color: #5d2f75;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 27px;
+}
+.notification-text {
+  color: lightgrey;
+  text-align: center;
+}

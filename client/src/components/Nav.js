@@ -9,9 +9,9 @@ const Nav = () => {
       <Link className="navbar-brand" to="/">
         <img className="logo" src={monmia} />
       </Link>
-      <a href="/notifications">
+      <Link to="/notifications">
         <i className="fas fa-bell fa-lg" />
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
