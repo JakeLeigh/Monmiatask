@@ -7,3 +7,7 @@
   color: #5d2f75;
   text-align: center;
 }
+
+.page-links {
+  cursor: pointer;
+}

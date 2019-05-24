@@ -23,17 +23,33 @@ const Home = () => {
         Toolbar) option
       </p>
       <hr />
-      <Link to="/notifications">Notification Page</Link>
+      <Link className="page-links" to="/notifications">
+        Notification Page
+      </Link>
       <br />
-      <Link to="/login">Login Page</Link>
+      <Link className="page-links" to="/login">
+        Login Page
+      </Link>
       <br />
-      <Link to="/register">Register Page</Link>
+      <Link className="page-links" to="/register">
+        Register Page
+      </Link>
       <br />
-      <Link to="/passwordreset">Forgot Password Page</Link>
+      <Link className="page-links" to="/passwordreset">
+        Forgot Password Page
+      </Link>
       <br />
-      <Link to="/savedetails">Save Details Page</Link>
+      <Link className="page-links" to="/savedetails">
+        Save Details Page
+      </Link>
       <br />
-      <Link to="/personaldata">Personal Data Page</Link>
+      <Link className="page-links" to="/personaldata">
+        Personal Data Page
+      </Link>
+      <br />
+      <Link className="page-links" to="/personaldata">
+        Finance Data Page
+      </Link>
     </div>
   );
 };
