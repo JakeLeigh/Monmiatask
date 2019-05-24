@@ -18,6 +18,10 @@ const Home = () => {
         Some pages can be selected through links such as the notification/login
         and register page.
       </p>
+      <p className="home-text">
+        Application is best viewed using the inspect elements (Toggle device
+        Toolbar) option
+      </p>
       <hr />
       <Link to="/notifications">Notification Page</Link>
       <br />
