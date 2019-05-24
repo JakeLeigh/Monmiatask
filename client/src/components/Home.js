@@ -28,6 +28,8 @@ const Home = () => {
       <Link to="/passwordreset">Forgot Password Page</Link>
       <br />
       <Link to="/savedetails">Save Details Page</Link>
+      <br />
+      <Link to="/personaldata">Personal Data Page</Link>
     </div>
   );
 };
