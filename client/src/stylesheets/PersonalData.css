@@ -1,0 +1,14 @@
+option {
+  color: lightgrey;
+}
+
+.following-btn {
+  float: right;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.save-btn {
+  padding-left: 40px;
+  padding-right: 40px;
+}
