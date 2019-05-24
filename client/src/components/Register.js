@@ -78,12 +78,11 @@ class Register extends React.Component {
                 value="xxxxx"
               />
             </div>
-            <button
-              type="submit"
-              className="login-btn btn btn-success btn-block"
-            >
-              SIGUIENTE
-            </button>
+            <Link to="/notifications">
+              <button className="login-btn btn btn-success btn-block">
+                SIGUIENTE
+              </button>
+            </Link>
           </form>
         </div>
       </div>

@@ -32,9 +32,11 @@ class Login extends React.Component {
               <small id="passwordHelp">Has olvidado de tu contraseña?</small>
             </Link>
           </div>
-          <button type="submit" class="login-btn btn btn-success btn-block">
-            INCIAR SESIÓN
-          </button>
+          <Link to="/notifications">
+            <button class="login-btn btn btn-success btn-block">
+              INCIAR SESIÓN
+            </button>
+          </Link>
         </form>
         <p className="login-text">o login con</p>
         <hr />
